@@ -15,14 +15,14 @@ const FoodItem = ({ id, name, price, description, image }) => {
         {itemCount === 0 ? (
           <img
             className="add"
-            src={assets.add_icon_white} // Assuming add_to_cart is the icon for adding items
+            src={assets.add_icon_white}
             alt="Add to cart"
             onClick={() => addToCart(id)}
           />
         ) : (
           <div className="food-item-counter">
             <img
-              src={assets.remove_icon_red} // Assuming minus_icon is the icon for removing items
+              src={assets.remove_icon_red}
               alt="Remove one"
               onClick={() => removeFromCart(id)}
             />

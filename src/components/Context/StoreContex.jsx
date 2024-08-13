@@ -1,8 +1,8 @@
 import PropTypes from "prop-types";
 import { createContext, useState } from "react";
-import { food_list } from "../../assets/assets"; // Adjust this path if necessary
+import { food_list } from "../../assets/assets"; 
 
-// Create a context with an initial value of null
+
 export const StoreContext = createContext(null);
 
 const StoreContextProvider = (props) => {
